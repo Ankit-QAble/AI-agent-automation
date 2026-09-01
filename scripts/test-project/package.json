@@ -1,0 +1,17 @@
+{
+  "name": "swag-labs-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright automation for Swag Labs (saucedemo.com) — TC-001–TC-055",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "install:browsers": "playwright install --with-deps"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "typescript": "^5.5.0"
+  }
+}
